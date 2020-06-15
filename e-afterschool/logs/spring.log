@@ -1,0 +1,29 @@
+2020-06-11 17:41:22.840  INFO 17556 --- [restartedMain] c.y.a.in.EAfterschoolApplication         : Starting EAfterschoolApplication on DESKTOP-CMG60PK with PID 17556 (E:\hgko\Project\Free\YSC\afterschool\school\web\e-afterschool\target\classes started by hgko in E:\hgko\Project\Free\YSC\afterschool\school\web\e-afterschool)
+2020-06-11 17:41:22.840 DEBUG 17556 --- [restartedMain] c.y.a.in.EAfterschoolApplication         : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-11 17:41:22.840  INFO 17556 --- [restartedMain] c.y.a.in.EAfterschoolApplication         : No active profile set, falling back to default profiles: default
+2020-06-11 17:41:22.962  INFO 17556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-11 17:41:22.964  INFO 17556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-06-11 17:41:23.063  INFO 17556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-11 17:41:23.064  INFO 17556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-11 17:41:23.064  INFO 17556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-11 17:41:23.075  INFO 17556 --- [restartedMain] o.a.c.c.C.[.[localhost].[/mobile]        : Initializing Spring embedded WebApplicationContext
+2020-06-11 17:41:23.075  INFO 17556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 233 ms
+2020-06-11 17:41:23.102  INFO 17556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-11 17:41:23.104  INFO 17556 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-11 17:41:23.107  INFO 17556 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-06-11 17:41:23.113  WARN 17556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-11 17:41:23.156  INFO 17556 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-06-11 17:41:23.156  INFO 17556 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-11 17:41:23.170  INFO 17556 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-11 17:41:23.170  INFO 17556 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-11 17:41:23.173  INFO 17556 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-11 17:41:23.192  INFO 17556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/mobile'
+2020-06-11 17:41:23.193  INFO 17556 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-11 17:41:23.193  INFO 17556 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-11 17:41:23.197  INFO 17556 --- [restartedMain] c.y.a.in.EAfterschoolApplication         : Started EAfterschoolApplication in 0.383 seconds (JVM running for 284.725)
+2020-06-11 17:41:23.198  INFO 17556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-11 17:45:09.251  INFO 17556 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-06-11 17:45:09.305  INFO 17556 --- [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-11 17:45:09.306  INFO 17556 --- [RMI TCP Connection(26)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-11 17:45:09.306  INFO 17556 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-06-11 17:45:09.310  INFO 17556 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
